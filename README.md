@@ -28,3 +28,10 @@ Document Digitization: Convert printed or handwritten text in different language
 Language Translation: Translate recognized text into various languages for multilingual support.
 Data Extraction: Extract and translate text from images for data analysis and processing.</p>
 
+## Technologies Used
+
+- **OCR**: [EasyOCR](https://github.com/JaidedAI/EasyOCR) for text extraction.
+- **Translation**: [Hugging Face Transformers](https://github.com/huggingface/transformers) for text translation.
+- **Web Interface**: [Gradio](https://gradio.app/) for building the web interface.
+- **Image Processing**: [OpenCV](https://opencv.org/) for handling image files.
+
