@@ -40,7 +40,7 @@ Data Extraction: Extract and translate text from images for data analysis and 
 - **Image Processing**: [OpenCV](https://opencv.org/) for handling image files.
 
   <h1>Installation of multilingual ocr</h1>
-<p> For the pretrained model ocr we just have to run the Multilingual_OCR(1).ipynb file. </p>
+<p> For the pretrained model ocr we just have to run the [Multilingual_OCR(1).ipynb] file. </p>
 
 
   <h1>Installation of English ocr model</h1>
