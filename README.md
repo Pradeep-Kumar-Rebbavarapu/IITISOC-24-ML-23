@@ -55,8 +55,12 @@ main.py along with __init__.py popularises the test image using certain kernel,g
 <h2>Algorithm</h2>
 The illustration below shows how the algorithm works:
 
-top left: input image
-top right: apply filter to the image
-bottom left: threshold filtered image
-bottom right: compute bounding boxes
+<li>top left: input image</li>
+<li>top right: apply filter to the image</li>
+<li>bottom left: threshold filtered image</li>
+<li>bottom right: compute bounding boxes</li>
+<img src="imagae5.jpg">
+<p>The filter kernel with size=25, sigma=5 and theta=3 is shown below on the left. It models the typical shape of a word, with the width larger than the height (in this case by a factor of 3). On the right the frequency response is shown (DFT of size 100x100). The filter is in fact a low-pass, with different cut-off frequencies in x and y direction.</p>
+<img src="image6.jpg">
+
 
