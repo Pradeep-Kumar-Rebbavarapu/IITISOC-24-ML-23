@@ -52,5 +52,11 @@ main.py along with __init__.py popularises the test image using certain kernel,g
 <p>
 <img src="image4.png">
 </p>
+<h2>Algorithm</h2>
+The illustration below shows how the algorithm works:
 
+top left: input image
+top right: apply filter to the image
+bottom left: threshold filtered image
+bottom right: compute bounding boxes
 
