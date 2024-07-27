@@ -41,6 +41,7 @@ Data Extraction: Extract and translate text from images for data analysis and 
 
   <h1>Installation of multilingual ocr</h1>
 <p> For the pretrained model ocr we just have to run the [Multilingual_OCR(1).ipynb] file : <br>(https://github.com/Pradeep-Kumar-Rebbavarapu/IITISOC-24-ML-23/blob/main/MultiLingual_OCR%20(1).ipynb) file. </p>
+<p>Download Image1, Image2, Image3 for example used on interface </p>
 
 
   <h1>Installation of English ocr model</h1>
