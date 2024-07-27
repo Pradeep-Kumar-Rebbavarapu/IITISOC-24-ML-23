@@ -39,3 +39,10 @@ Data Extraction: Extract and translate text from images for data analysis and 
 - **Web Interface**: [Gradio](https://gradio.app/) for building the web interface.
 - **Image Processing**: [OpenCV](https://opencv.org/) for handling image files.
 
+  <h1>Installation</h1>
+<p> For the pretrained model ocr we just have to run the Multilingual_OCR(1).ipynb file. </p>
+<p> For our own trained english only ocr :</p><br>
+To check training part run OCR_Training.ipynb <br>
+this training file is trained with a famous dataset I_AM dataset which is a dataset constituent of handwritten chracters with there specific labels and a word.txt file which has a specific greyscale which played amajor role in training <br>
+rest of technicalities will be shared better in presentation 
+
