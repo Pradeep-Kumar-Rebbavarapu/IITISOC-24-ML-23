@@ -40,12 +40,12 @@ Data Extraction: Extract and translate text from images for data analysis and 
 - **Image Processing**: [OpenCV](https://opencv.org/) for handling image files.
 
   <h1>Installation of multilingual ocr</h1>
-<p> For the pretrained model ocr we just have to run the [Multilingual_OCR(1).ipynb](https://github.com/Pradeep-Kumar-Rebbavarapu/IITISOC-24-ML-23/blob/main/MultiLingual_OCR%20(1).ipynb) file. </p>
+<p> For the pretrained model ocr we just have to run the [Multilingual_OCR(1).ipynb] file : <br>(https://github.com/Pradeep-Kumar-Rebbavarapu/IITISOC-24-ML-23/blob/main/MultiLingual_OCR%20(1).ipynb) file. </p>
 
 
   <h1>Installation of English ocr model</h1>
   <p> For our own trained english only ocr :</p><br>
-To check training part run [OCR_Training.ipynb] <br>
+To check training part run OCR_Training.ipynb <br>
 This training file is trained with a famous dataset IAM dataset which is a dataset constituent of handwritten chracters with there specific labels and a word.txt file which has a specific greyscale which played amajor role in training <br>
 initially we need to copy the desired image path into Input image section in main.py file<br>
 main.py along with __init__.py popularises the test image using certain kernel,gray scales,sigma,theta and image height(should be changed according to input image) arguments.This main.py finally detects the popularlised words and creates a box around it,croping indivisual words and saving it into Outputs2 folder<br>
