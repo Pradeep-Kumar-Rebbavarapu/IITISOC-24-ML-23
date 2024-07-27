@@ -15,19 +15,19 @@
 <h2>About</h2>
 Welcome to the Multilingual OCR repository! This project leverages the power of EasyOCR, a comprehensive and easy-to-use Optical Character Recognition (OCR) library, to extract text from images in multiple languages. Additionally, it integrates a translation transformer model from Hugging Face to translate the extracted text into various languages. Furthermore, this repository includes a custom-trained English OCR model for specialized text recognition tasks.
 
-Key Features
+<h2>Key Features</h2>
 EasyOCR Integration: Utilize pre-trained models from EasyOCR to recognize text from images in over 6 languages.
 Custom English OCR Model: Includes a custom-trained model specifically for recognizing English text, with dedicated training and testing files.
 Translation Transformer: Translate the extracted text into different languages using state-of-the-art transformer models from Hugging Face.
 Multilingual Support: Handle a variety of languages for both OCR and translation tasks.
 Ease of Use: Simple and straightforward implementation, making it accessible for developers of all levels.
-Components
+## Components
 EasyOCR: An OCR library that provides pre-trained models capable of recognizing text in multiple languages with high accuracy.
 Custom English OCR Model: A specialized model trained for English text recognition, which first crops images into words before making predictions.
 Training File: Contains the code and data for training the custom English OCR model.
 Testing File: Provides a custom testing setup for evaluating the performance of the trained model.
 Hugging Face Transformers: A collection of transformer models for translation tasks, allowing for seamless language translation of the recognized text.
-Applications
+## Applications
 Document Digitization: Convert printed or handwritten text in different languages into digital text.
 Language Translation: Translate recognized text into various languages for multilingual support.
 Data Extraction: Extract and translate text from images for data analysis and processing..</p>
