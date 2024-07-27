@@ -62,5 +62,11 @@ The illustration below shows how the algorithm works:
 <img src="imgae5.jpg">
 <p>The filter kernel with size=25, sigma=5 and theta=3 is shown below on the left. It models the typical shape of a word, with the width larger than the height (in this case by a factor of 3). On the right the frequency response is shown (DFT of size 100x100). The filter is in fact a low-pass, with different cut-off frequencies in x and y direction.</p>
 <img src="image6.jpg">
+<h3>Training model</h3>
+<p>
+Training model is difficult to explain here in text for us , the model contains Convo 2D layer and a ctc loss function which makes it unique
+<br>
+will be sharing the detailed explanation in the presentation <b>:) </b> 
+</p>
 
 
